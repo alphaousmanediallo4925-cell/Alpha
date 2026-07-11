@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/portfolio.html?#Skills -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./Portfolio_files/plage.png">
+    <link rel="stylesheet" href="./Portfolio_files/style.css">
+</head>
+<body>
+    <nav>
+       <header>
+        <h1><b>Alpha Ousmane Diallo</b></h1>
+        <p>
+          <b></b>
+        </p>
+        <h2>
+          <b>Etudiant en Génie informatique</b>
+        </h2>
+        <p></p>
+        <nav class="barre de navigation">
+              <a href="http://127.0.0.1:5500/portfolio.html?#about"><b>A propos</b></a>
+              <a href="http://127.0.0.1:5500/portfolio.html?#Skills"><b>Compétences</b></a>
+              <a href="http://127.0.0.1:5500/portfolio.html?#project"><b>Projets</b></a>
+              <a href="http://127.0.0.1:5500/portfolio.html?#pictures"><b>Mes photos</b></a>
+              <a href="http://127.0.0.1:5500/portfolio.html?#contact"><b>Contact</b></a>
+        </nav>
+       </header>
+    <br>
+    <main>
+      <section id="about" class="Moi1">
+        <h2>A propos</h2>
+        <p> <b>Bonjour!</b>
+            <br>
+            je suis
+          <b><i>Alpha Ousmane Diallo,</i></b>  
+          étudiant en Génie informatique à SUPMTI en licence 1, depuis que j'ai découvert la programmation, j'ai développé une véritable passion pour la création de solutions numériques. Chaque projet est pour moi une occasion d'apprendre, d'expérimenter et de rélever de nouveaux défis. J'aime concevoir des interfaces simples, modernes et agréables à utiliser tout en accordant une attention particulière à la qualité du code. Je suis convaincu que la persévérance, la curiosité et l'apprentissage continu sont les clés pour évoluer dans le domaine du développement. Aujourd'hui, je continue à renforcer mes compétences afin de contribuer à des projets innovants et d'avoir un impact positif grâce à la téchnologie.
+        </p>
+    </section>
+    <br>
+    <section id="Skills" class="Moi2">
+        <h2>Compétences</h2>
+        <ul type="square">
+            <li>
+              <b>Langages de programmations :</b> HTML 40%, CSS 20%, C 80%.
+            </li>
+            <li>
+              <b>Langues parler:</b> Poulard, Français et Anglais.
+            </li>
+            <li>
+              <b>Bureautique :</b> Word, Excel, PowerPoint.
+            </li>
+            <li>
+              <b>Editeur de code :</b> Visual Studio Code, CodeBlocks et DevC++.
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section id="project" class="Moi3">
+        <h2>Mes projets</h2>
+        <h3>Application Bancaire</h3>
+        <p>Ce projet consiste à faire une application bancaire développée en langage C, conçue pour simuler la gestion de comptes bancaires. Elle permet notamment de créer et gérer des comptes, d'éffectuer des dépôts, des retraits, des virements et de consulter les informations des clients, tout en assurant la sauvegarde des données dans des fichiers. Réalisée avec les environnements Dev-C++, Code::Blocks et Visual Studio Code, l'interface graphique a été développée à l'aide de l'API Win32, me permettant d'acquérir une solide expérience en programmation procédurale, en gestion de fichiers, en conception d'interfaces natives sous Windows et en organisation d'un projet logiciel complet.</p>
+        <ul>
+          <li>
+            <b>Outils :</b>Visual Studio Code et CodeBlocks.
+          </li>
+          <li>
+            <b>interface graphique :</b>WinAPI 32 .
+          </li>
+        </ul>
+        <a href="http://127.0.0.1:5500/projet%20banque.pptx">
+          <input type="submit" value="Voir le projet" id="btn-submit">
+        </a>
+        <a href="http://127.0.0.1:5500/Code.cpp">
+         <input type="submit" value="Code source" id="btn-submit">
+        </a>
+        
+    </section>
+    <br>
+    <section id="pictures" class="Moi4">
+      <h2>Mes photos</h2>
+      <img src="./Portfolio_files/plage.png" height="300" width="200" alt="">
+      <img src="./Portfolio_files/restau.jpeg" height="300" width="200" alt="">
+      <img src="./Portfolio_files/kadi.jpg" height="300" width="200" alt="">
+      <img src="./Portfolio_files/Coding.png" height="300" width="200" alt="">
+    </section>
+    </main>
+    <br>
+       <footer id="contact" class="Moi5">
+      <h2>Contact</h2>
+      <ul type="circle">
+        <li>
+         <strong>Mon Email :</strong> Alphaousmanediallo4925@gmail 
+        </li>
+        <li>
+         <strong> Téléphone :</strong> +212 763115213 / whatsApp : +224 629279672
+        </li>
+        <li>
+         <strong> Adresse :</strong> Rabat,Agdal rue Aguelman sidi Ali</li>
+      </ul>
+       </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+ </nav></body></html>
