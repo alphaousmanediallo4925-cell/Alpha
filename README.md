@@ -1,1 +1,0 @@
-# alphaousmane.github.io
